@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  min-height: 100vh;
+  min-height: 90vh;
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -65,9 +65,18 @@ main {
 /* Footer */
 /*************/
 
+.footer {
+  margin-top: 2.4rem;
+}
+
 .footer-text {
   color: hsl(218, 44%, 22%);
   text-align: center;
   font-size: 1.4rem;
   padding-bottom: 0.8rem;
+}
+
+.footer-text a:link,
+.footer-text a:visited {
+  color: blue;
 }
