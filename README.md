@@ -8,7 +8,7 @@
 
 ### Links
 
-- Live Site URL: [QR-card-component](https://kunalbagnial.github.io/QR-card-component)
+- Live Site URL: [QR-code-component](https://kunalbagnial.github.io/QR-code-component)
 
 ### Screenshot
 
