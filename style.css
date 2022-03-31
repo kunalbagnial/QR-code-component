@@ -4,79 +4,56 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
-  background-color: hsl(212, 45%, 89%);
+  font-size: 0.9375rem;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
-  line-height: 1;
+  background-color: hsl(212, 45%, 89%);
+  line-height: 1.2;
 }
 
 main {
-  min-height: 90vh;
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
-  display: grid;
-  place-items: center;
+  min-height: 100vh;
+  max-width: 75rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*************/
-/* Card */
-/*************/
-
 .card {
-  max-width: 30rem;
-  background-color: #fff;
-  padding: 1.4rem;
-  border-radius: 19px;
-  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.075);
+  max-width: 18.75rem;
+  background-color: hsl(0, 0%, 100%);
+  padding: 0.8rem;
+  border-radius: 1rem;
+  box-shadow: 0px 16px 48px -24px hsla(217, 45%, 22%, 0.212);
   overflow: hidden;
 }
 
-.card-img img {
+.card__image img {
+  display: block;
   width: 100%;
-  border-radius: 11px;
+  border-radius: 0.5rem;
 }
 
-.card-content {
+.card__content {
   text-align: center;
-  padding: 1.6rem;
+  padding: 1.5rem 1rem;
 }
 
-.card-title {
+.card__title {
   color: hsl(218, 44%, 22%);
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
 }
 
-.card-text {
+.card__text {
   color: hsl(220, 15%, 55%);
-  font-size: 1.4rem;
-  line-height: 1.3;
 }
-
-/*************/
-/* Footer */
-/*************/
 
 .footer {
-  margin-top: 2.4rem;
-}
-
-.footer-text {
-  color: hsl(218, 44%, 22%);
+  margin-block: 1rem;
   text-align: center;
-  font-size: 1.4rem;
-  padding-bottom: 0.8rem;
-}
-
-.footer-text a:link,
-.footer-text a:visited {
-  color: blue;
 }
