@@ -4,55 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | QR code component challenge</title>
+    <title>Frontend mentor | QR code component</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="shortcut icon"
-      href="images/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
       type="image/x-icon"
     />
   </head>
   <body>
     <main>
-      <div class="card">
-        <div class="card__image">
-          <img src="./images/image-qr-code.png" alt="Qr code" />
+      <div class="container">
+        <div class="card">
+          <img
+            src="./images/image-qr-code.png"
+            class="card__img"
+            alt="QR code"
+          />
+          <div class="card__content">
+            <h5 class="card__title">
+              Improve your front-end skills by building projects
+            </h5>
+            <p class="card__text">
+              Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level
+            </p>
+          </div>
         </div>
-        <div class="card__content">
-          <h3 class="card__title">
-            Improve your front-end skills by building projects
-          </h3>
-          <p class="card__text">
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
-          </p>
-        </div>
+        <!-- Card end -->
       </div>
     </main>
 
     <footer class="footer">
-      <small>
+      <p class="footer__text">
         Challenge by
         <a
           href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"
           target="_blank"
         >
-          Frontend Mentor
+          Frontend Mentor.
         </a>
-        . Coded by
+        Coded by
         <a
           href="https://www.frontendmentor.io/profile/kunalbagnial"
           target="_blank"
         >
           Kunal
         </a>
-      </small>
+      </p>
     </footer>
   </body>
 </html>
